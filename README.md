@@ -6,13 +6,19 @@ Demonstration of:
 * Phoenix web framework
 * LiveView socket module
 * Chirp Twitter-like app 
-* Credit to Chris McCord
+
+This is the source code for the [Elixir Phoenix LiveView tutorial by Chris McCord](https://www.youtube.com/watch?v=MZvmYaFkNJI). 
+
+
+## Create Phoenix app
 
 Create a Phoenix app named "chirp":
 
 ```sh
 mix phx.new chirp --live && cd chirp
 ```
+
+## Generate LiveView Timeline Post
 
 Generate a live resource:
 
@@ -80,4 +86,9 @@ mix phx.server
 ```
 
 Browse http://localhost:4000/posts
+
+
+## Customize Post
+
+Edit file `lib/chirp_web/live/post_live/form_component.html.leex`
 
