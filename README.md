@@ -90,5 +90,7 @@ Browse http://localhost:4000/posts
 
 ## Customize Post
 
-Edit file `lib/chirp_web/live/post_live/form_component.html.leex`
+Edit file `lib/chirp_web/live/post_live/form_component.html.leex`. Add better UI, as per the video.
+
+Edit file `lib/chirp/timeline/post.ex`. Add data defaults and validations, as per the video.
 
